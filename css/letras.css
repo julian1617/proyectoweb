@@ -1,0 +1,30 @@
+body {
+    background-image: url('./FONDOS/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700; /* Un tono dorado que contrasta bien con fondos oscuros */
+    text-shadow: 2px 2px 5px #000000;
+}
+
+p, a, label, small {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.btn {
+    background-color: #FFD700; /* Botones en color dorado */
+    color: #000000;
+    border: none;
+    text-shadow: none;
+}
+
+.btn:hover {
+    background-color: #FFA500; /* Botones en un tono naranja en hover */
+    color: #FFFFFF;
+}

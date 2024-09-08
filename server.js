@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 1712;
+const port = 1217;
 
 // Servir archivos estáticos desde el directorio donde se clonó el proyecto
 app.use(express.static(path.join(__dirname)));
